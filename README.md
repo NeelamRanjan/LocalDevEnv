@@ -11,4 +11,3 @@
 * Open the Docker Desktop and select Create+ for creating a new dev environment. 
 * Choose an existing Git repo or any local directory as source. 
 * Follow the instructions to complete the Create dev environment wizard. 
-* Choose any API to start developing the application. 
