@@ -18,6 +18,7 @@
 * Open Visual Studio code and open a folder where all other files are kept of the project
 * Create a Docker Compose(with .yml extension) file as shown below -  
     
+      
   version: '3.6'    
   services:    
     jupyter:    
