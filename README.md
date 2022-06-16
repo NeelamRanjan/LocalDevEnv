@@ -48,6 +48,6 @@
 ```
 docker compose up -d 
 ```
-check the Docker Desktop to check if the container is running. 
+check the Docker Desktop if the container is running. 
 ### Open localhost:8888 on your browser where you can see the Jupyter notebook is running.  
 * Here you can create and run any AWS Glue job locally. 
