@@ -2,10 +2,13 @@
 ***
 ## Steps to create a new Dev Environment using Docker Desktop
 ### Install Docker Desktop  
-* Docker Desktop Installer for Windows 
-[Link] (https://docs.docker.com/desktop/windows/install/)
+* Docker Desktop Installer for Windows   
+
+[Link] (https://docs.docker.com/desktop/windows/install/) 
+
 ### Prerequisites - Gitbash, Visual Studio Code, Visual Studio Remote extension
-* Install Git(Bash), Visual Studio Code and Visual Studio Code Remote Container Extension
+* Install Git(Bash), Visual Studio Code and Visual Studio Code Remote Container Extension  
+
 [Link] (https://gitforwindows.org/)  
 
 [Link] (https://code.visualstudio.com/docs/?dv=win)  
