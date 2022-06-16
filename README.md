@@ -6,9 +6,12 @@
 [Link] (https://docs.docker.com/desktop/windows/install/)
 ### Prerequisites - Gitbash, Visual Studio Code, Visual Studio Remote extension
 * Install Git(Bash), Visual Studio Code and Visual Studio Code Remote Container Extension
-[Link] (https://gitforwindows.org/)
-[Link] (https://code.visualstudio.com/docs/?dv=win)
-[Link] (https://aka.ms/vscode-remote/download/extension)
+[Link] (https://gitforwindows.org/)  
+
+[Link] (https://code.visualstudio.com/docs/?dv=win)  
+
+[Link] (https://aka.ms/vscode-remote/download/extension)  
+
 ### Pull the aws glue 3.0.0 image from AWS github repository. 
 * Open command prompt and type following command - 
 ```
