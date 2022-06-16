@@ -11,8 +11,9 @@
 [Link] (https://aka.ms/vscode-remote/download/extension)
 ### Pull the aws glue 3.0.0 image form AWS github repository. 
 * Open command prompt and type following command - 
+```
  Docker pull amazon/aws-glue-libs:glue_libs_3.0.0_image_01  
-
+```
  Check the Docker Desktop if the image is available there. 
 ### Run the container 
 * Open Visual Studio code and open a folder where all other files are kept of the project
@@ -38,9 +39,9 @@
             
 * Make sure you have created a folder in C drive named glue_jupyter_workspace before running this yml file. You can create folder anywhere then give the path in the Volumes section. 
 * Now to run this container type the following command in Visual studio terminal - 
-  docker compose up -d   
-  
-  check the Docker desktop to check if the container is running. 
+```
+docker compose up -d 
+```
+check the Docker desktop to check if the container is running. 
 ### Open localhost:8888 on your browser where you can see the Jupyter notebook is running.  
-
- * Here you can run any Glue Job locally. 
+* Here you can run any Glue Job locally. 
