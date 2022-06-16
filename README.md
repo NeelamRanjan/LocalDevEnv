@@ -1,4 +1,5 @@
 # How to run a aws Glue 3.0.0 container on local dev environment  
+***
 ## Steps to create a new Dev Environment using Docker Desktop
 * Install Docker Desktop  
 ### Docker Desktop Installer for Windows 
@@ -10,7 +11,8 @@
 [Link] (https://aka.ms/vscode-remote/download/extension)
 * Pull the aws glue 3.0.0 image form AWS github repository. 
 ### Open command prompt and type following command - 
-> Docker pull amazon/aws-glue-libs:glue_libs_3.0.0_image_01 
+> Docker pull amazon/aws-glue-libs:glue_libs_3.0.0_image_01  
+
 > Check the Docker Desktop if the image is available there. 
 * Run the container 
 ### Open Visual Studio code and open a folder where all other files are kept of the project
