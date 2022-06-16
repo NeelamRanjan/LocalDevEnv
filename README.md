@@ -17,9 +17,11 @@
 ### Run the container 
 * Open Visual Studio code and open a folder where all other files are kept of the project
 * Create a Docker Compose(with .yml extension) file as shown below -  
-> version: '3.6'
+'''
+ version: '3.6'
 
-  services:
+  services:  
+    
     jupyter:
       container_name: glue_jupyter
       entrypoint: /home/glue_user/jupyter/jupyter_start.sh
@@ -34,7 +36,7 @@
       restart: always
       volumes:
         - C:/glue_jupyter_workspace:/home/glue_user/workspace/jupyter_workspace/
-
+'''
             
 * Make sure you have created a folder in C drive named glue_jupyter_workspace before running this yml file. You can create folder anywhere then give the path in the Volumes section. 
 * Now to run this container type the following command in Visual studio terminal - 
